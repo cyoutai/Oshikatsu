@@ -1,0 +1,217 @@
+@charset "UTF-8";
+
+/* 全体の枠 */
+.waku {
+
+	width:60%;
+	margin:0 auto;
+
+}
+
+/* 今日の年月日の表示 */
+.today h2{
+	display:block;
+	font-size: 1.5rem;
+	margin: 0px;
+}
+
+/* 今日の記念日、イベントの枠*/
+.todayList {
+
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+/* 今後のスケジュールの文字表示 */
+.schedule h3{
+	display:block;
+	font-size: 1.0rem;
+	margin: 0px;
+}
+
+
+/* 今後の記念日、イベントの枠*/
+.scheduleList {
+
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+/* 今日のイベント終了日の文字表示 */
+.eventEnd {
+	font-size: 0.8rem;
+}
+
+/* 記念日名の文字表示 */
+.annivName {
+	font-size: 1.0rem;
+	clear: both;
+}
+
+/* 記念日の周年と区分の文字表示 */
+.annivClass {
+	font-size: 0.8rem;
+	float:left;
+}
+
+/* 記念日の日付の文字表示 */
+.scheduleDateAnniv {
+	font-size: 1.0rem;
+	clear: both;
+}
+
+/* イベントの日付の文字表示 */
+.scheduleDateEvent {
+	font-size: 1.0rem;
+	float:left;
+}
+
+
+/* 記念日の塊を囲っている枠 */
+.anniv {
+
+	/* 上下あける */
+	margin: 5px 0px;
+	clear: both;
+
+}
+
+/* イベントの塊を囲っている枠 */
+.event {
+
+	/* 上下あける */
+	margin: 5px 0px;
+	clear: both;
+
+}
+
+/* イベント情報のイベントサイトへのリンクボタン */
+
+.eventUrl{
+    width:80px;
+    height:20px;
+    line-height:20px;
+    float:left;
+    margin-right: 5px;
+}
+.eventUrl a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:10px;
+    font-weight:bold;
+}
+.eventUrl a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* イベント情報の通販サイトへのリンクボタン */
+
+.eventShop{
+    width:80px;
+    height:20px;
+    line-height:20px;
+    float:left;
+    /* margin-right: 5px; */
+}
+.eventShop a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:10px;
+    font-weight:bold;
+}
+.eventShop a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* メニューで登録のボタン */
+.menuBtnRegist{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.menuBtnRegist a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.menuBtnRegist a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* メニューで一覧のボタン */
+.menuBtnList{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    /* margin-right: 5px; */
+}
+.menuBtnList a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.menuBtnList a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* clearfix */
+.clearfix {
+    content: " ";
+    display: block;
+    clear: both;
+}

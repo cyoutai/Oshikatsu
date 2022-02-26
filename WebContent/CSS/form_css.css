@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* 全体の枠 */
+.waku {
+
+	width:60%;
+	margin:0 auto;
+
+}
+
+/* 記念日一覧の枠*/
+.formList {
+
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+/* フォーム名の表示 */
+.formTitle h2{
+	display:block;
+	font-size: 1.2rem;
+	margin: 10px 0px 0px;
+}
+
+/* エラーメッセージの表示 */
+.msgErr p{
+	display:block;
+	font-size: 0.9rem;
+	margin: 0px 0px 5px;
+	color: #ff0000;
+	font-weight: bold;
+}
+
+/* リザルト画面のメッセージの表示 */
+.msgResult p{
+	display:block;
+	font-size: 1.0rem;
+	/* font-weight: bold; */
+	text-align : center;
+}
+
+/* メニューでホームのボタン */
+.menuList{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.menuList a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.menuList a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}

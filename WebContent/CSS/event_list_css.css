@@ -1,0 +1,159 @@
+@charset "UTF-8";
+
+/* 全体の枠 */
+.waku {
+
+	width:60%;
+	margin:0 auto;
+
+}
+
+/* イベント一覧のタイトル */
+.eventTitle h2 {
+	display:block;
+	font-size: 1.2rem;
+	margin: 10px 0px 0px;
+}
+
+/* 記念日一覧の枠*/
+.eventList {
+
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 10px;
+
+}
+
+/* イベントの塊を囲っている枠 */
+.event {
+
+	/* 上下あける */
+	margin: 5px 0px;
+	clear: both;
+
+}
+
+/* 場所の文字表示 */
+.eventLoc {
+	font-size: 0.8rem;
+}
+
+/* イベント情報のイベントサイトへのリンクボタン */
+
+.eventUrl{
+    width:80px;
+    height:20px;
+    line-height:20px;
+    float:left;
+    margin-right: 5px;
+}
+.eventUrl a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:10px;
+    font-weight:bold;
+}
+.eventUrl a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* イベント情報の通販サイトへのリンクボタン */
+
+.eventShop{
+    width:80px;
+    height:20px;
+    line-height:20px;
+    float:left;
+    /* margin-right: 5px; */
+}
+.eventShop a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:10px;
+    font-weight:bold;
+}
+.eventShop a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* 修正ボタン */
+.toForm{
+    width:30px;
+    height:18px;
+    line-height:20px;
+    margin-left: 10px;
+    float:left;
+}
+
+.toForm a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #7F7F7F;
+    color:#7F7F7F;
+    font-size:10px;
+    font-weight:bold;
+}
+.toForm a:hover{
+    background:#DEDEDE;
+    color:#7F7F7F;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #7F7F7F;
+    box-shadow:none;
+}
+
+/* メニューでホームのボタン */
+.menuHome{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.menuHome a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.menuHome a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}

@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* 全体の枠 */
+.waku {
+
+	width:60%;
+	margin:0 auto;
+
+}
+
+/* 記念日一覧のタイトル */
+.titleName h2{
+	display:block;
+	font-size: 1.2rem;
+	margin: 10px 0px 0px;
+}
+
+/* 記念日一覧の枠*/
+.titleDetale {
+
+	border: 1px solid #000000;
+	margin: 0px;
+	padding: 10px;
+	display: inline-block;
+	width:100%;
+
+}
+
+/* 見出しの文字表示 */
+.titleInfoTitle h3 {
+	font-size: 1.0rem;
+	clear: both;
+}
+
+/* 記念日の周年と区分の文字表示 */
+.urlTwitterId {
+	font-size: 0.8rem;
+}
+
+/* 作品の記念日とイベントの一覧表示ボタン */
+.selectList{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.selectList a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.selectList a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+
+/* 修正ボタン */
+.toFormTitle{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.toFormTitle a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #7F7F7F;
+    color:#7F7F7F;
+    font-size:12px;
+    font-weight:bold;
+}
+.toFormTitle a:hover{
+    background:#DEDEDE;
+    color:#7F7F7F;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #7F7F7F;
+    box-shadow:none;
+}
+
+/* メニューでホームのボタン */
+.menuList{
+    width:120px;
+    height:30px;
+    line-height:30px;
+    float:left;
+    margin-top:10px;
+    margin-right: 5px;
+}
+.menuList a{
+    display:block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    background:#FFFFFF;
+    text-align:center;
+    border:1px solid #000000;
+    color:#000000;
+    font-size:12px;
+    font-weight:bold;
+}
+.menuList a:hover{
+    background:#DEDEDE;
+    color:#000000;
+    margin-left:0px;
+    margin-top:0px;
+    border:1px solid #000000;
+    box-shadow:none;
+}
+
+/* clearfix */
+.clearfix {
+    content: " ";
+    display: block;
+    clear: both;
+}
