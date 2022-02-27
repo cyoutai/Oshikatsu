@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" id="WebApp_ID" version="3.1">
+  <display-name>Oshikatsu</display-name>
+  <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+    <welcome-file>index.htm</welcome-file>
+    <welcome-file>index.jsp</welcome-file>
+    <welcome-file>default.html</welcome-file>
+    <welcome-file>default.htm</welcome-file>
+    <welcome-file>default.jsp</welcome-file>
+  </welcome-file-list>
+
+  <servlet>
+    <servlet-name>AnnivDeleteS</servlet-name>
+    <servlet-class>servlet.AnnivDeleteS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnivDeleteS</servlet-name>
+    <url-pattern>/anniv_delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AnnivFormS</servlet-name>
+    <servlet-class>servlet.AnnivFormS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnivFormS</servlet-name>
+    <url-pattern>/anniv_form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AnnivListS</servlet-name>
+    <servlet-class>servlet.AnnivListS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnivListS</servlet-name>
+    <url-pattern>/anniv_list</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AnnivRegisterS</servlet-name>
+    <servlet-class>servlet.AnnivRegisterS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnivRegisterS</servlet-name>
+    <url-pattern>/anniv_register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>AnnivUpdateS</servlet-name>
+    <servlet-class>servlet.AnnivUpdateS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>AnnivUpdateS</servlet-name>
+    <url-pattern>/anniv_update</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ConfigFormS</servlet-name>
+    <servlet-class>servlet.ConfigFormS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConfigFormS</servlet-name>
+    <url-pattern>/config_form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ConfigUpdateS</servlet-name>
+    <servlet-class>servlet.ConfigUpdateS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ConfigUpdateS</servlet-name>
+    <url-pattern>/config_update</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EventDeleteS</servlet-name>
+    <servlet-class>servlet.EventDeleteS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventDeleteS</servlet-name>
+    <url-pattern>/event_delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EventFormS</servlet-name>
+    <servlet-class>servlet.EventFormS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventFormS</servlet-name>
+    <url-pattern>/event_form</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EventListS</servlet-name>
+    <servlet-class>servlet.EventListS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventListS</servlet-name>
+    <url-pattern>/event_list</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EventRegisterS</servlet-name>
+    <servlet-class>servlet.EventRegisterS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventRegisterS</servlet-name>
+    <url-pattern>/event_register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>EventUpdateS</servlet-name>
+    <servlet-class>servlet.EventUpdateS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>EventUpdateS</servlet-name>
+    <url-pattern>/event_update</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>HomeS</servlet-name>
+    <servlet-class>servlet.HomeS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>HomeS</servlet-name>
+    <url-pattern>/home</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LoginS</servlet-name>
+    <servlet-class>servlet.LoginS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LoginS</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>LogoutS</servlet-name>
+    <servlet-class>servlet.LogoutS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>LogoutS</servlet-name>
+    <url-pattern>/logout</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleDeleteS</servlet-name>
+    <servlet-class>servlet.TitleDeleteS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleDeleteS</servlet-name>
+    <url-pattern>/title_delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleDetailS</servlet-name>
+    <servlet-class>servlet.TitleDetailS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleDetailS</servlet-name>
+    <url-pattern>/title_detail</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleListS</servlet-name>
+    <servlet-class>servlet.TitleListS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleListS</servlet-name>
+    <url-pattern>/title_list</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleOnOffS</servlet-name>
+    <servlet-class>servlet.TitleOnOffS</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleOnOffS</servlet-name>
+    <url-pattern>/title_on_off</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleRegisterS</servlet-name>
+    <servlet-class>servlet.TitleRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleRegisterS</servlet-name>
+    <url-pattern>/title_register</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>TitleUpdateS</servlet-name>
+    <servlet-class>servlet.TitleUpdate</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>TitleUpdateS</servlet-name>
+    <url-pattern>/title_update</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserDeleteS</servlet-name>
+    <servlet-class>servlet.UserDelete</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserDeleteS</servlet-name>
+    <url-pattern>/user_delete</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UserRegisterS</servlet-name>
+    <servlet-class>servlet.UserRegister</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UserRegisterS</servlet-name>
+    <url-pattern>/user_register</url-pattern>
+  </servlet-mapping>
+
+</web-app>
